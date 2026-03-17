@@ -1,0 +1,16 @@
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\obj\Debug\net8.0-windows\Binaris_1001.Binaris1001.resources
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\obj\Debug\net8.0-windows\Binaris 1001.vbproj.GenerateResource.cache
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\obj\Debug\net8.0-windows\Binaris 1001.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\obj\Debug\net8.0-windows\Binaris 1001.AssemblyInfoInputs.cache
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\obj\Debug\net8.0-windows\Binaris 1001.AssemblyInfo.vb
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\obj\Debug\net8.0-windows\Binaris 1001.vbproj.CoreCompileInputs.cache
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\bin\Debug\net8.0-windows\Binaris 1001.exe
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\bin\Debug\net8.0-windows\Binaris 1001.deps.json
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\bin\Debug\net8.0-windows\Binaris 1001.runtimeconfig.json
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\bin\Debug\net8.0-windows\Binaris 1001.dll
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\bin\Debug\net8.0-windows\Binaris 1001.pdb
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\obj\Debug\net8.0-windows\Binaris 1001.dll
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\obj\Debug\net8.0-windows\refint\Binaris 1001.dll
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\obj\Debug\net8.0-windows\Binaris 1001.pdb
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\obj\Debug\net8.0-windows\Binaris 1001.genruntimeconfig.cache
+D:\My Data\Personal Projects\Binaris 1001\Binaris 1001\obj\Debug\net8.0-windows\ref\Binaris 1001.dll
