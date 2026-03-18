@@ -1,4 +1,4 @@
-﻿Public Class Binaris1001
+Public Class Binaris1001
     Dim n As Integer = 6
     Dim cells(n, n) As Button
     Dim board(n, n), solution(n, n) As Integer
@@ -266,20 +266,24 @@
                     cells(row, col).Text = ""
                     board(row, col) = -1
                 Else
-                    Dim invalidRowsIdx As List(Of Integer) = InvalidRows(n, board, row, col, board(row, col))
-                    Dim invalidColsIdx As List(Of Integer) = InvalidCols(n, board, row, col, board(row, col))
                     cells(row, col).Text = board(row, col).ToString()
-                    For Each rowIdx In invalidRowsIdx
-                        For j = 0 To n - 1
-                            cells(rowIdx, j).BackColor = Color.Red
-                        Next
-                    Next
-                    For Each colIdx In invalidColsIdx
-                        For i = 0 To n - 1
-                            cells(i, colIdx).BackColor = Color.Red
-                        Next
-                    Next
                 End If
+                For i = 0 To n - 1
+                    For j = 0 To n - 1
+                        Dim invalidRowsIdx As List(Of Integer) = InvalidRows(n, board, i, j, board(i, j))
+                        Dim invalidColsIdx As List(Of Integer) = InvalidCols(n, board, i, j, board(i, j))
+                        For Each rowIdx In invalidRowsIdx
+                            For c = 0 To n - 1
+                                cells(rowIdx, c).BackColor = Color.Red
+                            Next
+                        Next
+                        For Each colIdx In invalidColsIdx
+                            For r = 0 To n - 1
+                                cells(r, colIdx).BackColor = Color.Red
+                            Next
+                        Next
+                    Next
+                Next
                 If IsSolved(n, board, solution) Then
                     start = False
                     MessageBox.Show("Solved!")
